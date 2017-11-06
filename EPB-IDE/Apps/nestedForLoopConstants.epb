@@ -1,0 +1,13 @@
+10 rem nested for loop with constants
+15 rem
+20 let x = 0
+25 let y = 0
+30 for i = 1 to 10
+35 for j = 1 to 10
+40 let x = x + i
+45 let y = y + j
+50 print x
+55 print y
+60 next
+65 next
+99 end

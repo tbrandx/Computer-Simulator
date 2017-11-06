@@ -1,0 +1,12 @@
+10 rem perform complex equation with single variable
+15 rem
+20 rem input the two integer
+30 input a
+45 rem
+50 rem perform calculations and store in b
+60 let b = a * a - a / a * (a - a) + a / (a * a)
+65 rem
+70 rem print the result
+80 print b
+80 rem terminate program execution
+99 end

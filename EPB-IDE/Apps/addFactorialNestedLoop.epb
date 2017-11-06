@@ -1,0 +1,17 @@
+10 rem add 5 factorials and display result
+15 rem
+20 let b = 0
+25 rem loop 5 times - input integer and add
+30 for x = 1 to 5
+40 input a
+45 let c = a
+46 let z = a - 1
+50 for y = 1 to z
+55 let c = c * y
+60 next 
+75 let b = b + c
+80 next
+85 rem print the result
+90 print b
+95 rem terminate program execution
+99 end

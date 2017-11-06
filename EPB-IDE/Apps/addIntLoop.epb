@@ -1,0 +1,12 @@
+10 rem add 5 numbers and display result
+15 rem
+20 let b = 0
+25 rem loop 5 times - input integer and add
+30 for x = 0 to 5
+40 input a
+45 let b = b + a
+50 next
+70 rem print the result
+80 print b
+80 rem terminate program execution
+99 end

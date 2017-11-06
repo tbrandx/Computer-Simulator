@@ -1,0 +1,10 @@
+10 rem perform complex equation with single constant
+15 rem
+45 rem
+50 rem perform calculations and store in b
+60 let b = 4 * 4 - 4 / 4 * (4 - 4) + 4 / (4 * 4)
+65 rem
+70 rem print the result
+80 print b
+80 rem terminate program execution
+99 end
